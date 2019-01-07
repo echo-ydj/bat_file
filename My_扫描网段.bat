@@ -1,5 +1,5 @@
 @echo off
-:: -w ³¬Ê±Ê±¼ä -n ping µÄ´ÎÊı
+:: -w è¶…æ—¶æ—¶é—´   -n    ping çš„æ¬¡æ•°
 for /l %%i in (0,1,2) do ( ping -w 60 -n 1 X.X.X.%%i|find /i "ttl" >>ip.txt )
 
 pause
